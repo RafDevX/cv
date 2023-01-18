@@ -1,0 +1,16 @@
+<div class="cv-interests">
+	<h2 class="cv-sidebar-heading">
+		<i class="fa-solid fa-eye"></i>
+		Interests
+	</h2>
+	<div class="cv-interests-container">
+		{{ range . }}
+		<div class="cv-interests-entry">
+			<i class="{{ .icon }}"></i>
+			<span>
+				{{ .name | markdownify }}
+			</span>
+		</div>
+		{{ end }}
+	</div>
+</div>

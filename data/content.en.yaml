@@ -71,6 +71,17 @@ sidebar:
                   **Windows Server 2016**
 
                   (+ Active Directory)
+    interests:
+        - name: Cybersecurity
+          icon: fa-solid fa-lock
+        - name: SRE
+          icon: fa-solid fa-shield-halved
+        - name: WebDev
+          icon: fa-solid fa-window-restore
+        - name: DevOps
+          icon: fa-solid fa-cubes
+        - name: Software Engineering
+          icon: fa-solid fa-gear
 
 sections:
     - name: "Education"
