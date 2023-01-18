@@ -86,6 +86,9 @@ sidebar:
           icon: fa-solid fa-brands fa-osi
         - name: Law
           icon: fa-solid fa-scale-balanced
+    certifications:
+        - name: "Cambridge Assessment Certificate of Proficiency in English (CPE)"
+          date: "2019"
 
 sections:
     - name: "Education"

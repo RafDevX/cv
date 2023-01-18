@@ -1,0 +1,144 @@
+name: "Rafael Serra e Oliveira"
+headline: "Programador Full Stack | Estudante de Engenharia Informática"
+
+contacts:
+    - name: "Email"
+      icon: "fa-solid fa-envelope"
+      value: "raf@rso.pt"
+      url: "mailto:raf@rso.pt"
+    # - name: "Telefone"
+    #   icon: "fa-solid fa-phone"
+    #   value: "+351 912 345 678"
+    #   url: "tel:+351912345678"
+    - name: "Website"
+      icon: "fa-solid fa-arrow-pointer"
+      value: "rso.pt"
+      url: "https://rso.pt"
+    - name: "GitHub"
+      icon: "fa-brands fa-github"
+      value: "@RafDevX"
+      url: "https://github.com/RafDevX"
+    - name: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      value: "@RafDevX"
+      url: "https://www.linkedin.com/in/RafDevX"
+    - name: "Localização"
+      icon: "fa-solid fa-location-dot"
+      value: "Lisboa, Portugal"
+      url: "https://goo.gl/maps/UUgNskk4JzwTXtw99"
+
+sidebar:
+    skills:
+        - title: Languages
+          icon: "fa-solid fa-language"
+          entries:
+              - "**Português Europeu** (Nativo)"
+              - "**Inglês** (Proficiente — Nível C2)"
+              - "**Esperanto** (Iniciante)"
+        - title: Programação e Tecnologias
+          icon: "fa-solid fa-code"
+          entries:
+              - "**TypeScript** & **JavaScript**"
+              - "**VueJS** (+ Vite, Pinia, & Vuetify)"
+              - "**ReactJS** (+ JSX)"
+              - "**NodeJS** (+ express)"
+              - "**HTML5** & **CSS3** (+ Bootstrap)"
+              - "**Java** (+ Spring)"
+              - "**Python 3** (+ Django)"
+              - "**C**"
+              - "**Rust**"
+              - "**SQL**"
+              - "**Bash**"
+        - title: Ferramentas e Software
+          icon: "fa-solid fa-screwdriver-wrench"
+          entries:
+              - "**git** (+ GitHub, GitLab, & Gitea)"
+              - "**Docker** (+ Docker Compose)"
+              - "**nginx**"
+              - "**MariaDB**, **PostgreSQL** & **SQLite3**"
+              - "**Ansible**"
+              - "**LaTeX**"
+              - "**Markdown**"
+        - title: Sistemas Operativos
+          icon: "fa-solid fa-desktop"
+          entries:
+              - |
+                  **Linux** (Dia-a-dia)
+
+                  *Principalmente Arch e Ubuntu*
+              - "**Windows 10**"
+              - |
+                  **Windows Server 2016**
+
+                  (+ Active Directory)
+    interests:
+        - name: Cibersegurança
+          icon: fa-solid fa-lock
+        - name: SRE
+          icon: fa-solid fa-shield-halved
+        - name: WebDev
+          icon: fa-solid fa-window-restore
+        - name: DevOps
+          icon: fa-solid fa-cubes
+        - name: Engenharia de Software
+          icon: fa-solid fa-gear
+        - name: Open Source
+          icon: fa-solid fa-brands fa-osi
+        - name: Direito
+          icon: fa-solid fa-scale-balanced
+
+sections:
+    - name: "Educação"
+      icon: "fa-solid fa-graduation-cap"
+      items:
+          - name: "Instituto Superior Técnico (Universidade de Lisboa)"
+            url: "https://tecnico.ulisboa.pt"
+            subItems:
+                - name: "Licenciatura em Engenharia Informática e de Computadores"
+                  date: "setembro 2020 - julho 2023 _(esperado)_"
+                  description: |
+                      Atualmente a estudar na escola de engenharia portuguesa mais de topo. Média atual: 17.28/20.
+
+                      - Atribuído um **Diploma de Mérito Académico** pelo ano letivo 2020/2021 devido a desempenho excelente.
+                      - **Mentor** (2021/2022), guiando alunos de 1º ano na sua integração, e aconselhando-os ao longo do ano.
+                      - Membro da [Security Team @ Técnico](https://sectt.github.io/) (STT) desde outubro de 2020.
+    - name: "Experiência Profissional"
+      icon: "fa-solid fa-briefcase"
+      items:
+          - name: "Departamento de Engenharia Informática, IST"
+            url: "https://dei.tecnico.ulisboa.pt"
+            subItems:
+                - name: "Coordenador de Equipa"
+                  date: "agosto 2022 - Presente"
+                  description: |
+                      Responsável pela supervisão de uma equipa de 6 outros bolseiros no Departamento de Engenharia Informática
+                      (DEI) do Instituto Superior Técnico.
+                - name: "Programador Full Stack & Administrador de Sistemas"
+                  date: "maio 2021 - Presente"
+                  description: |
+                      Responsável, no âmbito de uma **Bolsa de Iniciação à Investigação**, pelo desenvolvimento e manutenção de
+                      várias aplicações de suporte, assim como da infraestrutura e sistemas digitais do Departamento.
+          - name: "JUNITEC (Júnior Empresa do IST)"
+            url: "https://junitec.pt"
+            subItems:
+                - name: "Gestor de Projeto"
+                  date: "abril 2022 - outubro 2022"
+                  description: |
+                      Responsável por uma equipa de 4 outros membros do Departamento de Consultoria, explorando novos horizontes
+                      num dos projetos mais ambiciosos da JUNITEC, em colaboração com o [CEiiA](https://www.ceiia.com/).
+                - name: "Membro do Departamento de Consultoria"
+                  date: "outubro 2020 - março 2022"
+                  description: |
+                      Desenvolvimento de projetos de ponta com a [Deloitte Portugal](https://www.deloitte.com/pt/en.html) e a
+                      [Unbabel](https://unbabel.com/). *Brainstorm* e *bootstrap* de dois projetos em colaboração com a
+                      [Fundação Calouste Gulbenkian](https://gulbenkian.pt).
+    - name: "Outras Experiências"
+      icon: "fa-solid fa-ellipsis"
+      items:
+          - name: "TreeTree2 AfterSchool"
+            url: "https://treetree2.school/"
+            subItems:
+                - name: "Instrutor Voluntário"
+                  date: "junho 2021 - novembro 2021"
+                  description: |
+                      Ensino de crianças de 11-17 anos sobre programação e algoritmos.
