@@ -1,4 +1,4 @@
-baseURL = "https://cv.rso.com"
+baseURL = "https://cv.rso.pt"
 languageCode = "en-us"
 title = "Rafael Serra e Oliveira's Curriculum Vitae"
 disableKinds = [
