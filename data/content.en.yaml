@@ -25,7 +25,7 @@ contacts:
     - name: "Location"
       icon: "fa-solid fa-location-dot"
       value: "Lisbon, Portugal"
-      url: "https://en.wikipedia.org/wiki/Lisbon"
+      url: "https://goo.gl/maps/UUgNskk4JzwTXtw99"
 
 sidebar:
     skills:
@@ -82,6 +82,10 @@ sidebar:
           icon: fa-solid fa-cubes
         - name: Software Engineering
           icon: fa-solid fa-gear
+        - name: Open Source
+          icon: fa-solid fa-brands fa-osi
+        - name: Law
+          icon: fa-solid fa-scale-balanced
 
 sections:
     - name: "Education"

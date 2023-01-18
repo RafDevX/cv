@@ -8,7 +8,7 @@
 		{{ range . }}
 		<a class="cv-contacts-item" href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener noreferrer">
 			<i class="{{ .icon }}"></i>
-			{{ .value }}
+			<span>{{ .value }}</span>
 		</a>
 		{{ end }}
 	</div>
