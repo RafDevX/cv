@@ -1,0 +1,19 @@
+<div class="toolbar">
+	{{ range $.Site.Home.AllTranslations }}
+	{{ if ne $.Site.Language.Lang .Language.Lang }}
+	<a href="{{ .Permalink }}">
+		<i class="fa-solid fa-language"></i>
+		View in
+		{{ .Language.LanguageName }}
+	</a>
+	{{ end }}
+	{{ end }}
+	<div style="flex-grow: 1;"></div>
+	<a href="https://github.com/RafDevX/cv" target="_blank" rel="noopener noreferrer">
+		<i class="fa-brands fa-github"></i>
+		Source code
+	</a>
+	<button class="print-button" onclick="window.print()">
+		<i class="fa-solid fa-print"></i>
+	</button>
+</div>

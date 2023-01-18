@@ -1,0 +1,130 @@
+name: "Rafael Serra e Oliveira"
+headline: "Full Stack Developer | Computer Science and Engineering Student"
+
+contacts:
+    - name: "Email"
+      icon: "fa-solid fa-envelope"
+      value: "raf@rso.pt"
+      url: "mailto:raf@rso.pt"
+    # - name: "Phone"
+    #   icon: "fa-solid fa-phone"
+    #   value: "+351 912 345 678"
+    #   url: "tel:+351912345678"
+    - name: "Website"
+      icon: "fa-solid fa-arrow-pointer"
+      value: "rso.pt"
+      url: "https://rso.pt"
+    - name: "GitHub"
+      icon: "fa-brands fa-github"
+      value: "@RafDevX"
+      url: "https://github.com/RafDevX"
+    - name: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      value: "@RafDevX"
+      url: "https://www.linkedin.com/in/RafDevX"
+    - name: "Location"
+      icon: "fa-solid fa-location-dot"
+      value: "Lisbon, Portugal"
+      url: "https://en.wikipedia.org/wiki/Lisbon"
+
+sidebar:
+    skills:
+        - title: Languages
+          icon: "fa-solid fa-language"
+          entries:
+              - "**European Portuguese** (Native)"
+              - "**English** (Proficient — Level C2)"
+              - "**Esperanto** (Beginner)"
+        - title: Programming and Technologies
+          icon: "fa-solid fa-code"
+          entries:
+              - "**TypeScript** & **JavaScript**"
+              - "**VueJS** (+ Vite, Pinia, & Vuetify)"
+              - "**ReactJS** (+ JSX)"
+              - "**NodeJS** (+ express)"
+              - "**HTML5** & **CSS3** (+ Bootstrap)"
+              - "**Java** (+ Spring)"
+              - "**Python 3** (+ Django)"
+              - "**C**"
+              - "**Rust**"
+              - "**SQL**"
+              - "**Bash**"
+        - title: Tools and Software
+          icon: "fa-solid fa-screwdriver-wrench"
+          entries:
+              - "**git** (+ GitHub, GitLab, & Gitea)"
+              - "**Docker** (+ Docker Compose)"
+              - "**nginx**"
+              - "**MariaDB**, **PostgreSQL** & **SQLite3**"
+              - "**Ansible**"
+              - "**LaTeX**"
+              - "**Markdown**"
+        - title: Operating Systems
+          icon: "fa-solid fa-desktop"
+          entries:
+              - |
+                  **Linux** (Daily Driver)
+
+                  *Mostly Arch and Ubuntu*
+              - "**Windows 10**"
+              - |
+                  **Windows Server 2016**
+
+                  (+ Active Directory)
+
+sections:
+    - name: "Education"
+      icon: "fa-solid fa-graduation-cap"
+      items:
+          - name: "Instituto Superior Técnico (University of Lisbon)"
+            url: "https://tecnico.ulisboa.pt/en"
+            subItems:
+                - name: "Bachelor's Degree in Computer Science and Engineering"
+                  date: "September 2020 - July 2023 _(expected)_"
+                  description: |
+                      Currently pursuing a Bachelor's Degree at Portugal's top engineering school. Current average: 17.28/20.
+
+                      - Awarded an **Academic Merit Diploma** for the 2020/2021 academic year due to excellent performance.
+                      - **Student Mentor** (2021/2022), helping 1st year students with onboarding and general counseling throughout the year.
+                      - Member of [Security Team @ Técnico](https://sectt.github.io/) (STT) since October 2020.
+    - name: "Professional Experience"
+      icon: "fa-solid fa-briefcase"
+      items:
+          - name: "Dept. of Computer Science and Engineering, IST"
+            url: "https://dei.tecnico.ulisboa.pt/en"
+            subItems:
+                - name: "Team Coordinator"
+                  date: "August 2022 - Present"
+                  description: |
+                      Responsible for the oversight of a team of 6 other Grantees at Instituto Superior Técnico's
+                      CSE Department (DEI).
+                - name: "Full Stack Developer & Systems Administrator"
+                  date: "May 2021 - Present"
+                  description: |
+                      Responsible, as part of a **Research Initiation Grant**,
+                      for the development and maintenance of several support applications, as well as the Department's
+                      infrastructure and digital systems.
+          - name: "JUNITEC (IST's Junior Enterprise)"
+            url: "https://junitec.pt"
+            subItems:
+                - name: "Project Manager"
+                  date: "April 2022 - October 2022"
+                  description: |
+                      Responsible for a team of 4 other people within JUNITEC's Consulting Department, exploring new frontiers in one of
+                      JUNITEC's most ambitious projects ever, as part of a collaboration with [CEiiA](https://www.ceiia.com/).
+                - name: "Member of the Consulting Department"
+                  date: "October 2020 - March 2022"
+                  description: |
+                      Worked on bleeding-edge projects with [Deloitte Portugal](https://www.deloitte.com/pt/en.html) and
+                      [Unbabel](https://unbabel.com/). Helped brainstorm and bootstrap two projects in collaboration with the
+                      [Calouste Gulbenkian Foundation](https://gulbenkian.pt/en/).
+    - name: "Other Experiences"
+      icon: "fa-solid fa-ellipsis"
+      items:
+          - name: "TreeTree2 AfterSchool"
+            url: "https://treetree2.school/"
+            subItems:
+                - name: "Volunteer Instructor"
+                  date: "June 2021 - November 2021"
+                  description: |
+                      Taught children 11 to 17 years old about STEM, specifically programming and algorithms.

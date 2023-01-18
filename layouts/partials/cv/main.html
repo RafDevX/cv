@@ -1,0 +1,23 @@
+<div class="cv">
+	{{ partial "cv/header.html" . }}
+	<div class="cv-body">
+		<div class="cv-sections">
+			{{ with .sections }}
+			{{ range . }}
+			<h2>
+				<i class="{{ .icon }}"></i>
+				{{ .name }}
+			</h2>
+			{{ range .items }}
+			{{ partial "cv/section_item.html" . }}
+			{{ end }}
+			{{ end }}
+			{{ end }}
+		</div>
+		<div class="cv-sidebar">
+			{{ with .sidebar }}
+			{{ partial "cv/sidebar/skills.html" .skills }}
+			{{ end }}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ partial "toolbar.html" . }}
+<main>
+	{{ with (index .Site.Data (.Param "datasource")) }}
+	{{ partial "cv/main.html" . }}
+	{{ end }}
+</main>
+{{ end }}

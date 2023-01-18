@@ -1,0 +1,21 @@
+<div class="cv-skills">
+	<h2 class="cv-sidebar-heading">
+		<i class="fa-solid fa-toolbox"></i>
+		Skills
+	</h2>
+	{{ range . }}
+	<div class="cv-skills-section">
+		<h3 class="cv-skills-section-title">
+			<i class="{{ .icon }}"></i>
+			{{ .title }}
+		</h3>
+		<ul class="cv-skills-entries">
+			{{ range .entries }}
+			<li class="cv-skills-entry">
+				{{ . | markdownify }}
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	{{ end }}
+</div>

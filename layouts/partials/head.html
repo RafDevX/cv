@@ -1,0 +1,9 @@
+<title>{{ .Site.Title }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+{{ $style := resources.Get "main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" />
+<script src="https://kit.fontawesome.com/32c58345b7.js" crossorigin="anonymous"></script>

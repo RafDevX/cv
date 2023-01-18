@@ -1,0 +1,16 @@
+<header>
+	<h1>{{ .name }}</h1>
+	{{ with .headline }}
+	<p><i>{{ . }}</i></p>
+	{{ end }}
+	{{ with .contacts }}
+	<div class="cv-contacts">
+		{{ range . }}
+		<a class="cv-contacts-item" href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener noreferrer">
+			<i class="{{ .icon }}"></i>
+			{{ .value }}
+		</a>
+		{{ end }}
+	</div>
+	{{ end }}
+</header>

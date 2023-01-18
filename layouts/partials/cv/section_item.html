@@ -1,0 +1,22 @@
+<div class="cv-section-item">
+	<h3 class="cv-section-item-name">
+		<i class="fa-solid fa-location-dot"></i>
+		<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+			{{ .name | markdownify }}
+		</a>
+	</h3>
+	{{ range .subItems }}
+	<div class="cv-section-subitem">
+		<h4 class="cv-section-subitem-name">
+			{{ .name | markdownify }}
+		</h4>
+		<h5 class="cv-section-subitem-date">
+			<i class="fa-solid fa-calendar"></i>
+			{{ .date | markdownify }}
+		</h5>
+		<p>
+			{{ .description | markdownify }}
+		</p>
+	</div>
+	{{ end }}
+</div>
