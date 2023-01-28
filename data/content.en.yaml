@@ -131,7 +131,7 @@ sections:
                   date: "October 2020 - March 2022"
                   description: |
                       Worked on bleeding-edge projects with [Deloitte Portugal](https://www.deloitte.com/pt/en.html) and
-                      [Unbabel](https://unbabel.com/). Helped brainstorm and bootstrap two projects in collaboration with the
+                      [Unbabel](https://unbabel.com/). Helped brainstorm and bootstrap two projects with the
                       [Calouste Gulbenkian Foundation](https://gulbenkian.pt/en/).
     - name: "Other Experiences"
       icon: "fa-solid fa-ellipsis"
@@ -144,3 +144,11 @@ sections:
                   description: |
                       Helped author and teach programming and algorithms courses directed at children 11 to 17 years old
                       passionate about STEM.
+          - name: "CanSat Competition (European Space Agency / ESERO PT)"
+            url: "https://cansat.esa.int/"
+            subItems:
+                - name: "National-Level Finalist"
+                  date: "October 2019 - May 2020"
+                  description: |
+                      Participated under the team name *Athena 7*, having been selected to the Portuguese final, which unfortunately
+                      never took place due to the COVID-19 pandemic.

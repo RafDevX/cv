@@ -10,10 +10,12 @@
 		<h4 class="cv-section-subitem-name">
 			{{ .name | markdownify }}
 		</h4>
+		{{ with .date }}
 		<h5 class="cv-section-subitem-date">
 			<i class="fa-solid fa-calendar"></i>
-			{{ .date | markdownify }}
+			{{ . | markdownify }}
 		</h5>
+		{{ end }}
 		<p>
 			{{ .description | markdownify }}
 		</p>

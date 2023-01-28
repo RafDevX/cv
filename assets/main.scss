@@ -7,7 +7,7 @@ $sidebarBgColorLight: #cedcf1;
 $sidebarTextColorLight: #000;
 $bodyBgColorLight: #fff;
 $bodyTextColorLight: #000;
-$baseFontSize: 14px;
+$baseFontSize: 12px;
 
 @mixin breakpoint-sm {
 	@media only screen and (max-width: 649px) {
@@ -187,6 +187,7 @@ body {
 		.cv-section-item-name {
 			margin-top: 0.75em;
 			margin-bottom: 0;
+			font-size: 1.4em;
 
 			a {
 				color: inherit;
@@ -202,7 +203,7 @@ body {
 			padding-left: 0.5em;
 
 			.cv-section-subitem-name {
-				font-size: 1.1em;
+				font-size: 1.3em;
 				color: var(--accentColor);
 				// I'd like to underline this, but I can't without
 				// it looking like a link

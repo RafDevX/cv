@@ -94,7 +94,7 @@ sections:
                 - name: "Licenciatura em Engenharia Informática e de Computadores"
                   date: "setembro 2020 - julho 2023 _(esperado)_"
                   description: |
-                      Atualmente a estudar na escola de engenharia portuguesa mais de topo. Média atual: 17.3/20.
+                      Atualmente a estudar na mais de topo escola de engenharia portuguesa. Média atual: 17.3/20.
 
                       - Atribuído um **Diploma de Mérito Académico** pelo ano letivo 2020/2021 devido a desempenho excelente.
                       - **Mentor** (2021/2022), guiando alunos de 1º ano na sua integração, e aconselhando-os ao longo do ano.
@@ -127,7 +127,7 @@ sections:
                   date: "outubro 2020 - março 2022"
                   description: |
                       Desenvolvimento de projetos de ponta com a [Deloitte Portugal](https://www.deloitte.com/pt/en.html) e a
-                      [Unbabel](https://unbabel.com/). *Brainstorm* e *bootstrap* de dois projetos em colaboração com a
+                      [Unbabel](https://unbabel.com/). *Brainstorm* e *bootstrap* de dois projetos com a
                       [Fundação Calouste Gulbenkian](https://gulbenkian.pt).
     - name: "Outras Experiências"
       icon: "fa-solid fa-ellipsis"
@@ -140,3 +140,11 @@ sections:
                   description: |
                       Autoria e instrução de cursos de programação e algoritmos para crianças de 11-17 anos apaixonadas
                       por *STEM*.
+          - name: "Competição CanSat (Agência Espacial Europeia / ESERO PT)"
+            url: "https://cansat.esa.int/"
+            subItems:
+                - name: "Finalista Nacional"
+                  date: "outubro 2019 - maio 2020"
+                  description: |
+                      Participação sob a equipa *Athena 7*, tendo sido selecionados para a final nacional, que infelizmente
+                      nunca se realizou devido à pandemia de COVID-19.
