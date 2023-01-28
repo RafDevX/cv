@@ -204,7 +204,9 @@ body {
 			.cv-section-subitem-name {
 				font-size: 1.1em;
 				color: var(--accentColor);
-				text-decoration: underline 2px;
+				// I'd like to underline this, but I can't without
+				// it looking like a link
+				// text-decoration: underline 2px;
 				margin-top: 0;
 				margin-bottom: 0.5em;
 			}
