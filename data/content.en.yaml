@@ -97,7 +97,7 @@ sections:
                 - name: "Bachelor's Degree in Computer Science and Engineering"
                   date: "September 2020 - July 2023 _(expected)_"
                   description: |
-                      Currently pursuing a Bachelor's Degree at Portugal's top engineering school. Current average: 17.28/20.
+                      Currently pursuing a Bachelor's Degree at Portugal's top engineering school. Current average: 17.3/20.
 
                       - Awarded an **Academic Merit Diploma** for the 2020/2021 academic year due to excellent performance.
                       - **Student Mentor** (2021/2022), helping 1st year students with onboarding and general counseling throughout the year.
@@ -111,8 +111,8 @@ sections:
                 - name: "Team Coordinator"
                   date: "August 2022 - Present"
                   description: |
-                      Responsible for the oversight of a team of 6 other Grantees at Instituto Superior Técnico's
-                      CSE Department (DEI).
+                      Responsible for the oversight of a full stack team of 6 other Grantees at Instituto Superior
+                      Técnico's CSE Department (DEI).
                 - name: "Full Stack Developer & Systems Administrator"
                   date: "May 2021 - Present"
                   description: |
@@ -125,7 +125,7 @@ sections:
                 - name: "Project Manager"
                   date: "April 2022 - October 2022"
                   description: |
-                      Responsible for a team of 4 other people within JUNITEC's Consulting Department, exploring new frontiers in one of
+                      Led a team of 4 other people within JUNITEC's Consulting Department, exploring new frontiers in one of
                       JUNITEC's most ambitious projects ever, as part of a collaboration with [CEiiA](https://www.ceiia.com/).
                 - name: "Member of the Consulting Department"
                   date: "October 2020 - March 2022"
@@ -142,4 +142,5 @@ sections:
                 - name: "Volunteer Instructor"
                   date: "June 2021 - November 2021"
                   description: |
-                      Taught children 11 to 17 years old about STEM, specifically programming and algorithms.
+                      Helped author and teach programming and algorithms courses directed at children 11 to 17 years old
+                      passionate about STEM.

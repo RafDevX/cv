@@ -94,7 +94,7 @@ sections:
                 - name: "Licenciatura em Engenharia Informática e de Computadores"
                   date: "setembro 2020 - julho 2023 _(esperado)_"
                   description: |
-                      Atualmente a estudar na escola de engenharia portuguesa mais de topo. Média atual: 17.28/20.
+                      Atualmente a estudar na escola de engenharia portuguesa mais de topo. Média atual: 17.3/20.
 
                       - Atribuído um **Diploma de Mérito Académico** pelo ano letivo 2020/2021 devido a desempenho excelente.
                       - **Mentor** (2021/2022), guiando alunos de 1º ano na sua integração, e aconselhando-os ao longo do ano.
@@ -108,8 +108,8 @@ sections:
                 - name: "Coordenador de Equipa"
                   date: "agosto 2022 - Presente"
                   description: |
-                      Responsável pela supervisão de uma equipa de 6 outros bolseiros no Departamento de Engenharia Informática
-                      (DEI) do Instituto Superior Técnico.
+                      Responsável pela supervisão de uma equipa *full stack* de 6 outros bolseiros no Departamento de Engenharia
+                      Informática (DEI) do Instituto Superior Técnico.
                 - name: "Programador Full Stack & Administrador de Sistemas"
                   date: "maio 2021 - Presente"
                   description: |
@@ -138,4 +138,5 @@ sections:
                 - name: "Instrutor Voluntário"
                   date: "junho 2021 - novembro 2021"
                   description: |
-                      Ensino de crianças de 11-17 anos sobre programação e algoritmos.
+                      Autoria e instrução de cursos de programação e algoritmos para crianças de 11-17 anos apaixonadas
+                      por *STEM*.
