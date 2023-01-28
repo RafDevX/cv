@@ -80,7 +80,7 @@ sidebar:
         - name: Software Engineering
           icon: fa-solid fa-gear
         - name: Open Source
-          icon: fa-solid fa-brands fa-osi
+          icon: fa-solid fa-code-branch
         - name: Law
           icon: fa-solid fa-scale-balanced
     certifications:

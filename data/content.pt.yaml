@@ -80,7 +80,7 @@ sidebar:
         - name: Engenharia de Software
           icon: fa-solid fa-gear
         - name: Open Source
-          icon: fa-solid fa-brands fa-osi
+          icon: fa-solid fa-code-branch
         - name: Direito
           icon: fa-solid fa-scale-balanced
 
