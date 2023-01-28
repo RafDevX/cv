@@ -62,13 +62,10 @@ sidebar:
         - title: Operating Systems
           icon: "fa-solid fa-desktop"
           entries:
+              - "**Arch Linux** (Daily Driver)"
+              - "**Windows**"
               - |
-                  **Linux** (Daily Driver)
-
-                  *Mostly Arch and Ubuntu*
-              - "**Windows 10**"
-              - |
-                  **Windows Server 2016**
+                  **Windows Server**
 
                   (+ Active Directory)
     interests:

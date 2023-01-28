@@ -62,13 +62,10 @@ sidebar:
         - title: Sistemas Operativos
           icon: "fa-solid fa-desktop"
           entries:
+              - "**Arch Linux** (Dia-a-dia)"
+              - "**Windows**"
               - |
-                  **Linux** (Dia-a-dia)
-
-                  *Principalmente Arch e Ubuntu*
-              - "**Windows 10**"
-              - |
-                  **Windows Server 2016**
+                  **Windows Server**
 
                   (+ Active Directory)
     interests:
