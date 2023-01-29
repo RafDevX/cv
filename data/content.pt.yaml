@@ -83,6 +83,10 @@ sidebar:
           icon: fa-solid fa-code-branch
         - name: Direito
           icon: fa-solid fa-scale-balanced
+        - name: Jogos de Tabuleiro
+          icon: fa-solid fa-dice
+        - name: Filmes
+          icon: fa-solid fa-film
 
 sections:
     - name: "Educação"

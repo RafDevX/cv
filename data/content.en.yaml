@@ -83,6 +83,10 @@ sidebar:
           icon: fa-solid fa-code-branch
         - name: Law
           icon: fa-solid fa-scale-balanced
+        - name: Board Games
+          icon: fa-solid fa-dice
+        - name: Movies
+          icon: fa-solid fa-film
     certifications:
         - name: "Cambridge Assessment Certificate of Proficiency in English (CPE)"
           date: "2019"
