@@ -5,4 +5,8 @@
 	{{ partial "cv/main.html" . }}
 	{{ end }}
 </main>
+
+{{ $script := resources.Get "main.js" | js.Build (dict "params" (dict "printTitle" (.Param "printTitle"))) | minify |
+fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
 {{ end }}

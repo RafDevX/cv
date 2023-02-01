@@ -18,8 +18,10 @@ languageName = "English"
 weight = 1
 [languages.en.params]
 datasource = "content.en"
+printTitle = "CV Rafael Serra e Oliveira"
 [languages.pt]
 languageName = "Portuguese"
 weight = 2
 [languages.pt.params]
 datasource = "content.pt"
+printTitle = "CV Rafael Serra e Oliveira (PT)"
