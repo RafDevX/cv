@@ -1,5 +1,5 @@
 name: "Rafael Serra e Oliveira"
-headline: "Full Stack Developer | Computer Science and Engineering Student"
+headline: "Full Stack Developer | Cybersecurity Student"
 
 contacts:
     - name: "Email"
@@ -24,8 +24,8 @@ contacts:
       url: "https://www.linkedin.com/in/RafDevX"
     - name: "Location"
       icon: "fa-solid fa-location-dot"
-      value: "Lisbon, Portugal"
-      url: "https://goo.gl/maps/UUgNskk4JzwTXtw99"
+      value: "Stockholm, Sweden"
+      url: "https://maps.app.goo.gl/DLod91gFVVrAyywa8"
 
 sidebar:
     skills:
@@ -34,19 +34,19 @@ sidebar:
           entries:
               - "**European Portuguese** (Native)"
               - "**English** (Proficient — Level C2)"
-              - "**Esperanto** (Beginner)"
+              - "**Swedish** (Beginner)"
         - title: Programming and Technologies
           icon: "fa-solid fa-code"
           entries:
+              - "**Rust**"
+              - "**Java** (+ Spring)"
               - "**TypeScript** & **JavaScript**"
               - "**VueJS** (+ Vite, Pinia, & Vuetify)"
               - "**ReactJS** (+ JSX)"
               - "**NodeJS** (+ express)"
               - "**HTML5** & **CSS3** (+ Bootstrap)"
-              - "**Java** (+ Spring)"
               - "**Python 3** (+ Django)"
               - "**C**"
-              - "**Rust**"
               - "**SQL**"
               - "**Bash**"
         - title: Tools and Software
@@ -56,7 +56,7 @@ sidebar:
               - "**Docker** (+ Docker Compose)"
               - "**nginx**"
               - "**MariaDB**, **PostgreSQL** & **SQLite3**"
-              - "**Ansible**"
+              - "**Typst**"
               - "**LaTeX**"
               - "**Markdown**"
         - title: Operating Systems
@@ -69,6 +69,8 @@ sidebar:
 
                   (+ Active Directory)
     interests:
+        - name: Software Engineering
+          icon: fa-solid fa-gear
         - name: Cybersecurity
           icon: fa-solid fa-lock
         - name: SRE
@@ -77,8 +79,6 @@ sidebar:
           icon: fa-solid fa-window-restore
         - name: DevOps
           icon: fa-solid fa-cubes
-        - name: Software Engineering
-          icon: fa-solid fa-gear
         - name: Open Source
           icon: fa-solid fa-code-branch
         - name: Law
@@ -87,73 +87,110 @@ sidebar:
           icon: fa-solid fa-dice
         - name: Movies
           icon: fa-solid fa-film
-    certifications:
-        - name: "Cambridge Assessment Certificate of Proficiency in English (CPE)"
-          date: "2019"
 
 sections:
     - name: "Education"
       icon: "fa-solid fa-graduation-cap"
       items:
+          - name: "KTH Royal Institute of Technology (Stockholm, Sweden)"
+            url: "https://www.kth.se/en"
+            subItems:
+                - name: "Master's Degree in Cybersecurity"
+                  date: "August 2023 - June 2025 _(expected)_"
+                  description: |
+                      Currently pursuing a Master's Degree from Sweden's chief technical university.
+
+                      - Achieved **Grade A** in all graded courses (A-F) to date.
+                      - **Student Representative** for the Cybersecurity Master's program,
+                        working on educational matters across different fora and advocating for student influence.
+                      - **Secretary of The Board** for student CTF team [RoyalRoppers](https://royalroppers.team/) during 2024.
+                      - **Systems Lead** *(Systemansvarig)* for the Student Union's
+                        [Computer Science Chapter](https://datasektionen.se/en) between July 2024
+                        and December 2025, as the elected official in charge of the team developing/maintaining
+                        the Chapter's vast IT infrastructure.
+                      - **Senior Leadership** for the [International Committee](https://metastudent.se/)
+                        of that same CS Chapter, responsible for Communications and having partially or
+                        fully organized dozens of events, as well as managed the reception of hundreds of students.
           - name: "Instituto Superior Técnico (University of Lisbon)"
             url: "https://tecnico.ulisboa.pt/en"
             subItems:
                 - name: "Bachelor's Degree in Computer Science and Engineering"
-                  date: "September 2020 - July 2023 _(expected)_"
+                  date: "September 2020 - July 2023"
                   description: |
-                      Currently pursuing a Bachelor's Degree at Portugal's top engineering school.
+                      Obtained a Bachelor's Degree from Portugal's top engineering school.
 
-                      - Current average: 18/20.
-                      - Awarded an **Academic Merit Diploma** for the 2020/2021 academic year due to excellent performance.
-                      - **Student Mentor** (2021/2022), helping 1st year students with onboarding and general counseling throughout the year.
+                      - Final Grade: 18/20.
+                      - Awarded an **Academic Excellence Diploma** (2022/2023).
+                      - Conferred **two Academic Merit Diplomas** (2020/2021 & 2021/2022).
+                      - **Student Mentor** (2021/2022), onboarding and counseling first year students.
                       - Member of [Security Team @ Técnico](https://sectt.github.io/) (STT) since October 2020.
     - name: "Professional Experience"
       icon: "fa-solid fa-briefcase"
       items:
+          - name: "KTH Royal Institute of Technology"
+            url: "https://www.kth.se/en"
+            subItems:
+                - name: "Teaching Assistant / Developer"
+                  date: "February 2024 - May 2024"
+                  description: |
+                      Part of a team developing the Google Cloud-based cyber range framework for the
+                      [EN2720 Ethical Hacking](https://www.kth.se/student/kurser/kurs/EN2720?l=en)
+                      course at KTH.
           - name: "Dept. of Computer Science and Engineering, IST"
             url: "https://dei.tecnico.ulisboa.pt/en"
             subItems:
                 - name: "Team Coordinator"
-                  date: "August 2022 - Present"
+                  date: "August 2022 - August 2023"
                   description: |
                       Responsible for the oversight of a full stack team of 6 other Grantees at Instituto Superior
                       Técnico's CSE Department (DEI).
                 - name: "Full Stack Developer & Systems Administrator"
-                  date: "May 2021 - Present"
+                  date: "May 2021 - August 2023"
                   description: |
-                      Responsible, as part of a **Research Initiation Grant**,
-                      for the development and maintenance of several support applications, as well as the Department's
-                      infrastructure and digital systems.
+                      Tasked with the development and maintenance of several administrative  and teaching applications,
+                      as well as the Department's infrastructure & digital systems.
           - name: "JUNITEC (IST's Junior Enterprise)"
-            url: "https://junitec.pt"
+            url: "https://junitec.pt/en"
             subItems:
-                - name: "Project Manager"
-                  date: "April 2022 - October 2022"
-                  description: |
-                      Led a team of 4 other people within JUNITEC's Consulting Department, exploring new frontiers in one of
-                      JUNITEC's most ambitious projects ever, as part of a collaboration with [CEiiA](https://www.ceiia.com/).
-                - name: "Member of the Consulting Department"
-                  date: "October 2020 - March 2022"
+                - name: "Consulting Department Member & Project Manager"
+                  date: "October 2020 - October 2022"
                   description: |
                       Worked on bleeding-edge projects with [Deloitte Portugal](https://www.deloitte.com/pt/en.html) and
                       [Unbabel](https://unbabel.com/). Helped brainstorm and bootstrap two projects with the
                       [Calouste Gulbenkian Foundation](https://gulbenkian.pt/en/).
-    - name: "Other Experiences"
-      icon: "fa-solid fa-ellipsis"
-      items:
-          - name: "TreeTree2 AfterSchool"
-            url: "https://treetree2.school/"
-            subItems:
-                - name: "Volunteer Instructor"
-                  date: "June 2021 - November 2021"
-                  description: |
-                      Helped author and teach programming and algorithms courses directed at children 11 to 17 years old
-                      passionate about STEM.
-          - name: "CanSat Competition (European Space Agency / ESERO PT)"
-            url: "https://cansat.esa.int/"
-            subItems:
-                - name: "National-Level Finalist"
-                  date: "October 2019 - May 2020"
-                  description: |
-                      Participated under the team name *Athena 7*, having been selected to the Portuguese final, which unfortunately
-                      never took place due to the COVID-19 pandemic.
+
+                      From April 2022, led a team of 4 others as **Project Manager**, exploring new frontiers in one
+                      of JUNITEC's most ambitious projects ever, in collaboration with [CEiiA](https://www.ceiia.com/).
+          # - name: "JUNITEC (IST's Junior Enterprise)"
+          #   url: "https://junitec.pt"
+          #   subItems:
+          #       - name: "Project Manager"
+          #         date: "April 2022 - October 2022"
+          #         description: |
+          #             Led a team of 4 others within the Consulting Department exploring new frontiers in one of
+          #             JUNITEC's most ambitious projects ever, in collaboration with [CEiiA](https://www.ceiia.com/).
+          #       - name: "Member of the Consulting Department"
+          #         date: "October 2020 - March 2022"
+          #         description: |
+          #             Worked on bleeding-edge projects with [Deloitte Portugal](https://www.deloitte.com/pt/en.html) and
+          #             [Unbabel](https://unbabel.com/). Helped brainstorm and bootstrap two projects with the
+          #             [Calouste Gulbenkian Foundation](https://gulbenkian.pt/en/).
+    # - name: "Other Experiences"
+    #   icon: "fa-solid fa-ellipsis"
+    #   items:
+    #       - name: "TreeTree2 AfterSchool"
+    #         url: "https://treetree2.school/"
+    #         subItems:
+    #             - name: "Volunteer Instructor"
+    #               date: "June 2021 - November 2021"
+    #               description: |
+    #                   Helped author and teach programming and algorithms courses directed at children 11 to 17 years old
+    #                   passionate about STEM.
+    #       - name: "CanSat Competition (European Space Agency / ESERO PT)"
+    #         url: "https://cansat.esa.int/"
+    #         subItems:
+    #             - name: "National-Level Finalist"
+    #               date: "October 2019 - May 2020"
+    #               description: |
+    #                   Participated under the team name *Athena 7*, having been selected to the Portuguese final, which unfortunately
+    #                   never took place due to the COVID-19 pandemic.

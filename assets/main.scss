@@ -46,10 +46,10 @@ body {
 	background-color: var(--bodyBgColor);
 	color: var(--bodyTextColor);
 
-	max-width: 800px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: auto;
 	height: 297mm; // A4
+	width: 210mm;
 
 	display: flex;
 	flex-direction: column;
@@ -108,6 +108,8 @@ body {
 	}
 	.cv {
 		box-shadow: none;
+		width: initial;
+		max-width: 800px;
 	}
 	body {
 		margin: 0;
