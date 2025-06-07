@@ -7,4 +7,8 @@ pkgs.mkShellNoCC {
     unstable.typst
     unstable.typstyle
   ];
+
+  shellHook = ''
+    export TYPST_FONT_PATHS=$(realpath "$PWD")/assets/fonts
+  '';
 }
