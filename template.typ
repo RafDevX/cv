@@ -1,6 +1,6 @@
 #import "@preview/fontawesome:0.6.2": fa-icon
 
-#let primary = rgb("#3e4688")
+#let primary = navy.lighten(10%) // rgb("#3e4688") // (maybe too juvenile)
 #let secondary = rgb("#cedcf1")
 
 #let header(
@@ -16,6 +16,7 @@
 ) = {
   block(
     fill: primary,
+    stroke: (bottom: 0pt, rest: 1pt + black), // outline more clear in viewers
     width: 100%,
     inset: (top: 1cm, bottom: 0.5cm, x: 1.25cm),
     {
@@ -24,9 +25,9 @@
       stack(
         dir: ltr,
         {
-          par(text(size: 3em, strong(delta: 900, title)))
+          set align(center)
 
-          v(-0.5em)
+          par(text(size: 3em, strong(delta: 900, title)))
 
           par(text(size: 1.5em, emph(tagline)))
         },
@@ -86,7 +87,7 @@
         ))
       }
 
-      v(-0.5em)
+      v(0.4em)
 
       stack(dir: ltr, spacing: 1fr, ..contacts)
     },
@@ -94,7 +95,7 @@
 }
 
 #let inner-text(body) = {
-  show link: it => text(fill: primary, strong(it))
+  show link: it => text(fill: primary, strong(it, delta: 200))
 
   body
 }

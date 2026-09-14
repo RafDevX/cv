@@ -16,8 +16,8 @@
   //   "./assets/interrobang.png",
   //   height: 200%,
   //   width: 200%,
-  // )),
-  with-icons: false,
+  // )), // avatar is a bit weird as a first impression
+  with-icons: false, // looks a bit crowded with icons
   categories: (
     (
       title: [Education],
